@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.intel.icecp</groupId>
+        <artifactId>icecp-module-template</artifactId>
+        <version>LATEST</version>
+    </parent>
+
+    <name>${artifactId}</name>
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+    <packaging>jar</packaging>
+    <description>Replace this generated text with your project's description</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.intel.icecp</groupId>
+            <artifactId>icecp-node</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>ubit-artifactory-or.intel.com</id>
+            <name>IT Artifactory (libs)</name>
+            <url>https://ubit-artifactory-or.intel.com/artifactory/arp-eap-maven-local</url>
+        </repository>
+    </repositories>
+</project>

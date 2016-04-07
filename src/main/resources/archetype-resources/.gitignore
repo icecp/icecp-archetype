@@ -1,0 +1,44 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+${symbol_pound} Created by https://www.gitignore.io
+
+${symbol_pound}${symbol_pound}${symbol_pound} Maven ${symbol_pound}${symbol_pound}${symbol_pound}
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+${symbol_pound}${symbol_pound}${symbol_pound} Native code ${symbol_pound}${symbol_pound}${symbol_pound}
+*.so
+
+${symbol_pound}${symbol_pound}${symbol_pound} Sublime Text ${symbol_pound}${symbol_pound}${symbol_pound}
+*.sublime*
+
+${symbol_pound}${symbol_pound}${symbol_pound} IDEs ${symbol_pound}${symbol_pound}${symbol_pound}
+.project
+.settings
+nbproject
+.idea
+*.iml
+
+${symbol_pound}${symbol_pound}${symbol_pound} Java ${symbol_pound}${symbol_pound}${symbol_pound}
+*.class
+.classpath
+
+${symbol_pound} Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+${symbol_pound} Package Files ${symbol_pound}
+*.jar
+*.war
+*.ear
+
+${symbol_pound} Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+${symbol_pound} Temporary files
+*~
+*.swp
