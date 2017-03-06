@@ -2,6 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.intel.icecp</groupId>
+        <artifactId>icecp-module-template</artifactId>
+        <version>LATEST</version>
+    </parent>
+
     <groupId>com.intel.icecp</groupId>
     <artifactId>icecp-archetype</artifactId>
     <version>1.0</version>
@@ -32,17 +38,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>ubit-artifactory-or.intel.com</id>
-            <name>IT Artifactory (libs)</name>
-            <url>https://ubit-artifactory-or.intel.com/artifactory/ARP-EAP-maven-local</url>
-        </repository>
-        <snapshotRepository>
-            <id>ubit-artifactory-or.intel.com</id>
-            <name>IT Artifactory (libs-snapshots)</name>
-            <url>https://ubit-artifactory-or.intel.com/artifactory/ARP-EAP-maven-local</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
