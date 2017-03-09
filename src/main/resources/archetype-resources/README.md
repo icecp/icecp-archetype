@@ -11,11 +11,11 @@ ${symbol_pound}${symbol_pound}${symbol_pound} Install
 
 ${symbol_pound}${symbol_pound}${symbol_pound} Run
 
- 1. See [How to Use Modules](https://github.intel.com/iSPA/icecp-node/wiki/How-to-Use-Modules)
+ 1. See [How to Use Modules](https://github.com/icecp/icecp/wiki/How-to-Use-Modules)
 
 ${symbol_pound}${symbol_pound}${symbol_pound} Documentation
 
 TODO update links below:
- - [Javadoc](https://github.intel.com/pages/iSPA/${artifactId})
- - [Wiki](https://github.intel.com/iSPA/${artifactId}/wiki)
+ - [Javadoc](https://icecp.github.io/${artifactId})
+ - [Wiki](https://github.com/icecp/${artifactId}/wiki)
 

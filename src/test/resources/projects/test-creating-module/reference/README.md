@@ -8,11 +8,11 @@ TODO Update this file with your project description.
 
 ### Run
 
- 1. See [How to Use Modules](https://github.intel.com/iSPA/icecp-node/wiki/How-to-Use-Modules)
+ 1. See [How to Use Modules](https://github.com/icecp/icecp/wiki/How-to-Use-Modules)
 
 ### Documentation
 
 TODO update links below:
- - [Javadoc](https://github.intel.com/pages/iSPA/test-module)
- - [Wiki](https://github.intel.com/iSPA/test-module/wiki)
+ - [Javadoc](https://icecp.github.io/test-module)
+ - [Wiki](https://github.com/icecp/test-module/wiki)
 
